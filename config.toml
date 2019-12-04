@@ -1,4 +1,4 @@
-baseurl = "//webdevsanity.onrender.com/"
+baseurl = "//webdevsanity.com/"
 languageCode = "en-us"
 title = "Web Dev Sanity"
 theme = "hugo-type-theme"
