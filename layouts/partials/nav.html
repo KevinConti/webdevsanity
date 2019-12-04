@@ -1,5 +1,6 @@
 <header class="site-header">
-	<div class="branding">
+  <div class="branding">
+    <!--
 		<a href="{{ .Site.BaseURL }}">
 		{{ with .Site.Params.gravatar -}}
 			<img class="avatar" src="https://www.gravatar.com/avatar/{{ . | md5 }}?s=100&d=identicon" alt="avatar"/>
@@ -7,17 +8,16 @@
 			<img class="avatar" src="{{ .Site.Params.avatar | absURL }}" alt="avatar"/>
 		{{- end }}
 		</a>
-		<h1 class="site-title">
-			<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-		</h1>
-	</div>
-	<nav class="site-nav">
-		<ul>
-			{{ range .Site.Menus.nav -}}
-				<li><a href="{{ .URL }}"> {{ .Name }} </a></li>
-			{{- end }}
-
-			{{ partial "icons.html" . }}
-		</ul>
-	</nav>
+	-->
+    <h1 class="site-title">
+      <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+    </h1>
+  </div>
+  <nav class="site-nav">
+    <ul>
+      {{ range .Site.Menus.nav -}}
+      <li><a href="{{ .URL }}"> {{ .Name }} </a></li>
+      {{- end }} {{ partial "icons.html" . }}
+    </ul>
+  </nav>
 </header>
