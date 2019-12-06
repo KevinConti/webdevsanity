@@ -8,9 +8,21 @@ fields:
 - type: text
   name: author
   label: author
+  default: Kevin Conti
 - type: list
   name: categories
   label: categories
+  config:
+    use_select: true
+    source:
+      type: simple
+    options:
+    - HTML
+    - CSS
+    - Elm
+    - Go
+    - Pheonix
+    - React
 - type: datetime
   name: date
   label: date
