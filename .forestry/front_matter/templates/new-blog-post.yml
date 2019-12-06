@@ -33,6 +33,14 @@ fields:
 - type: list
   name: series
   label: series
+  config:
+    use_select: true
+    source:
+      type: simple
+    options:
+    - CSS Foundations
+    - HTML Foundations
+    - Javascript Foundations
 - type: list
   name: tags
   label: tags
