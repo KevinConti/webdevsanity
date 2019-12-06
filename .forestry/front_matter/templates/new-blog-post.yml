@@ -38,3 +38,5 @@ fields:
 - type: text
   name: title
   label: title
+pages:
+- content/post/understanding-the-css-box-model.md
