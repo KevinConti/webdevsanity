@@ -7,7 +7,7 @@ description = "A brief overview of the history of CSS, so we can move on to the 
 draft = true
 series = ["CSS Foundations"]
 tags = []
-title = "CSS Foundations Part 1 - The Display Property"
+title = "The Display Property (CSS Foundations - 1)"
 
 +++
 Notes go here:
