@@ -10,7 +10,7 @@ tags = []
 title = "The Display Property (CSS Foundations - 1)"
 
 +++
-Notes go here:
+Notes go here: 
 
 What makes up a box? Content -> padding -> border -> margin
 
