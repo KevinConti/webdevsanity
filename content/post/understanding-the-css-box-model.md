@@ -12,9 +12,35 @@ title = "Where to Begin With CSS? The Display Property"
 +++
 Layout:
 
-* Before: Intro to Series link
-* Introduction: why you are learning this first
-  * What you will learn
+Welcome to my "Foundations of CSS" free online course! After finishing these articles and completing the challenge projects found at the bottom of some of the articles, you won't be a CSS master. You won't know every nuance, and you certainly won't be ready to give a talk on the merits of various CSS architectures.
+
+Instead, you'll know how to quickly and reliably create the exact layout you want within CSS, in plain, no-bs language.
+
+What do I expect from you before you take this course?
+
+* You should already know basic CSS syntax. If you don't, [learn it here. ](https://www.w3schools.com/css/css_syntax.asp "w3schools")
+* You are willing to learn by doing, and will complete the exercises in the course when they appear.
+
+If the above doesn't apply to you, please look elsewhere. 
+
+***
+
+In this article, you will learn...
+
+* What the CSS box model is, and why it's important
+* Why CSS should make you think of newspaper articles
+* The old way of layout: Display property (and why you don't need to master it)
+* A primer on the new/better way of layout
+
+## The CSS Box Model
+
+The CSS Box Model is just a fancy way of saying that all CSS elements are "boxes", even if they don't look like them. When we talk about the space between elements, we need to know the four parts of the CSS Box Model:
+
+1. Margin - 
+2. Border
+3. Padding
+4. Content
+
 * Primer on Box Model (very quick!) - code pen
 * Analagy: Newspaper articles
   * When CSS was being designed, newspaper (and print media in general) was the primary source of content. CSS is modeled after this style, and it is important to keep that in mind.
@@ -60,6 +86,6 @@ Layout:
 >
 > auto?
 >
-> \**inline vs inline-block elements are affected by whitespace inside your html**
+> \*_inline vs inline-block elements are affected by whitespace inside your html_*
 >
-> \**inline-block default is not border-box, meaning that if you have a border the spacing will be fucked up**
+> \*_inline-block default is not border-box, meaning that if you have a border the spacing will be fucked up_*
