@@ -45,47 +45,13 @@ The CSS Box Model is just a fancy way of saying that all CSS elements are "boxes
 
 It's easiest to see this with a real example. Let's look at a paragraph:
 
-<div class="codepen" data-height="444" data-theme-id="default" data-default-tab="css,result" data-user="KevinConti" data-slug-hash="BayKOLV" data-prefill='{"title":"box model","tags":\[\],"stylesheets":\[\],"scripts":\[\]}'>
+<iframe height="444" style="width: 100%;" scrolling="no" title="box model" src="[https://codepen.io/KevinConti/embed/BayKOLV?height=444&theme-id=default&default-tab=css,result](https://codepen.io/KevinConti/embed/BayKOLV?height=444&theme-id=default&default-tab=css,result "https://codepen.io/KevinConti/embed/BayKOLV?height=444&theme-id=default&default-tab=css,result")" frameborder="no" allowtransparency="true" allowfullscreen="true">
 
-  <pre data-lang="html">&lt;div>
+  See the Pen <a href='[https://codepen.io/KevinConti/pen/BayKOLV](https://codepen.io/KevinConti/pen/BayKOLV "https://codepen.io/KevinConti/pen/BayKOLV")'>box model</a> by Kevin Conti
 
-  &lt;p>Hello, this is a paragraph. I have a lot of text and things to tell you!
+  (<a href='[https://codepen.io/KevinConti](https://codepen.io/KevinConti "https://codepen.io/KevinConti")'>@KevinConti</a>) on <a href='[https://codepen.io](https://codepen.io "https://codepen.io")'>CodePen</a>.
 
-  &lt;/p>
-
-&lt;/div> </pre>
-
-  <pre data-lang="css" >div {
-
-  width: 25%;
-
-  margin-left: auto;
-
-  margin-right: auto;
-
-  border: 1px solid #0D3331;
-
-  padding: 10px;
-
-  box-sizing: border-box;
-
-  background-color: #64D5CA;
-
-}
-
-p {
-
-  color: #0D3331;
-
-  font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-
-}</pre>
-
-  
-
-</div>
-
-<script async src="[https://static.codepen.io/assets/embed/ei.js](https://static.codepen.io/assets/embed/ei.js "https://static.codepen.io/assets/embed/ei.js")"></script>
+</iframe>
 
 * Primer on Box Model (very quick!) - code pen
 * Analagy: Newspaper articles
