@@ -47,11 +47,11 @@ It's easiest to see this with a real example. Let's look at a paragraph:
 
 <p class="codepen" data-height="469" data-theme-id="default" data-default-tab="css,result" data-user="KevinConti" data-slug-hash="BayKOLV" style="height: 469px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="box model">
 
-  <span>See the Pen <a href="[https://codepen.io/KevinConti/pen/BayKOLV](https://codepen.io/KevinConti/pen/BayKOLV "https://codepen.io/KevinConti/pen/BayKOLV")">
+<span>See the Pen <a href="[https://codepen.io/KevinConti/pen/BayKOLV](https://codepen.io/KevinConti/pen/BayKOLV "https://codepen.io/KevinConti/pen/BayKOLV")">
 
-  box model</a> by Kevin Conti (<a href="[https://codepen.io/KevinConti](https://codepen.io/KevinConti "https://codepen.io/KevinConti")">@KevinConti</a>)
+box model</a> by Kevin Conti (<a href="[https://codepen.io/KevinConti](https://codepen.io/KevinConti "https://codepen.io/KevinConti")">@KevinConti</a>)
 
-  on <a href="[https://codepen.io](https://codepen.io "https://codepen.io")">CodePen</a>.</span>
+on <a href="[https://codepen.io](https://codepen.io "https://codepen.io")">CodePen</a>.</span>
 
 </p>
 
@@ -86,7 +86,7 @@ The border for this element is that thin black line all around the block
 
 **Padding**
 
-The padding is the _space between the border line and the paragraph text_  
+The padding is the _space between the border line and the paragraph text_
 
 {{< highlight css >}}
 
@@ -103,13 +103,13 @@ The content is the size of the block. In this case, it is dynamically determined
 
 ### "So, that's great and all, but what do I need to remember about all this?"
 
-It's confusing for beginners to understand the difference between padding and margin, but it's a simple concept once it's broken down. Margin is on the outside of the element, and padding is on the inside. 
+It's confusing for beginners to understand the difference between padding and margin, but it's a simple concept once it's broken down. Margin is on the outside of the element, and padding is on the inside.
 
 Try to keep these four terms in mind as we move on, because they will quickly become part of our shared language.
 
 ## Layout in CSS: Think of Newspaper Articles
 
-With CSS being roughly 25 years old, it's tough for many new developers to understand the context for which it was made, myself included. This causes a mental gap if you just go through, learn the syntax, and try to apply all of this yourself. It's helpful to take a step back and remember that print media, specifically newspapers, was the dominant form of publishing at the time. 
+With CSS being roughly 25 years old, it's tough for many new developers to understand the context for which it was made, myself included. This causes a mental gap if you just go through, learn the syntax, and try to apply all of this yourself. It's helpful to take a step back and remember that print media, specifically newspapers, was the dominant form of publishing at the time.
 
 ![Newspaper article from 1994](/uploads/news-article.jpg)
 
@@ -119,12 +119,40 @@ The point is, when we are looking at the original layout techniques of CSS, I wa
 
 ## The Old-Fashioned Way: The Display Property
 
-WebDevSanity.com is all about teaching you only what you need to know about web dev, so you can reliably use it for your own projects, or work, or whatever. As such, we're only going over the critical aspects of the display property for formatting. 
+WebDevSanity.com is all about teaching you only what you need to know about web dev, so you can reliably use it for your own projects, or work, or whatever. As such, we're only going over the critical aspects of the display property for formatting.
 
 Why are we going over it at all, you may ask? Good question. Here's why I think it's worth discussing even though you should only use it occasionally yourself:
 
 1. You'll see it on the web. Although you won't be implementing with it too often, it's still around, and it wouldn't be very great if there came a time where you had to at least _understand_ some CSS and it was beyond your comprehension.
-2. You'll still use blocks, even with modern CSS. Even though the rest is used far less frequently, you'll still find yourself relying on good ol' {{< highlight css >}} display: block {{< /highlight >}} pretty frequently. As such, you better understand how it works, and you won't have a good-enough understanding unless you understand the other display options that contrast it.
+2. You'll still use blocks, even with modern CSS. Even though the rest is used far less frequently, you'll still find yourself relying on good ol' **display: block** pretty frequently. As such, you better understand how it works, and you won't have a good-enough understanding unless you understand the other display options that contrast it.
+
+With that out of the way, let's look at the basics of the **display** property
+
+### display: There's only four values that matter
+
+Again, we find ourselves with four values to learn. Keep in mind our newspaper article:
+
+**display: block**
+
+A block display is made to act like a paragraph. AKA, it is a _block_ of stuff. Block in this case means chunk, like a block of code is a chunk of code, or a block of cheese is a chunk of cheese. The div in the code example above was a block, for example.
+
+**display: inline**
+
+Inline is the second-most important display value out of the four. Inline displays are for when you want something to appear as _inside_ (aka inline) with another element. 
+
+For example, in newspaper articles you often see that the first letter is far bigger than the rest of the letters in the paragraph. To create this in CSS, I may do something like this:
+
+<p class="codepen" data-height="369" data-theme-id="default" data-default-tab="css,result" data-user="KevinConti" data-slug-hash="povyxdR" style="height: 369px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="BigLetter">
+
+  <span>See the Pen <a href="[https://codepen.io/KevinConti/pen/povyxdR](https://codepen.io/KevinConti/pen/povyxdR "https://codepen.io/KevinConti/pen/povyxdR")">
+
+  BigLetter</a> by Kevin Conti (<a href="[https://codepen.io/KevinConti](https://codepen.io/KevinConti "https://codepen.io/KevinConti")">@KevinConti</a>)
+
+  on <a href="[https://codepen.io](https://codepen.io "https://codepen.io")">CodePen</a>.</span>
+
+</p>
+
+<script async src="[https://static.codepen.io/assets/embed/ei.js](https://static.codepen.io/assets/embed/ei.js "https://static.codepen.io/assets/embed/ei.js")"></script>
 
 * Primer on Box Model (very quick!) - code pen
 * Analagy: Newspaper articles
