@@ -59,10 +59,14 @@ It's easiest to see this with a real example. Let's look at a paragraph:
 
 Margin - Since this block is centered it has a large left and right margin. That's what pushes it to the center:
 
+{{< highlight css >}}
+
     div {
     	margin-left: auto
         margin-right: auto
     }
+
+{{< /highlight >}}
 
 Border - The border for this element is that thin black line all around the block
 
