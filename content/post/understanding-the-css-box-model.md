@@ -57,6 +57,21 @@ It's easiest to see this with a real example. Let's look at a paragraph:
 
 <script async src="[https://static.codepen.io/assets/embed/ei.js](https://static.codepen.io/assets/embed/ei.js "https://static.codepen.io/assets/embed/ei.js")"></script>
 
+Margin - Since this block is centered it has a large left and right margin. That's what pushes it to the center:
+
+    div {
+    	margin-left: auto
+        margin-right: auto
+    }
+
+Border - The border for this element is that thin black line all around the block
+
+    div {
+    	border: 1px solid #OD331 
+        /* A border of size 1px, a solid line, 
+        and a dark teal color */
+    }
+
 * Primer on Box Model (very quick!) - code pen
 * Analagy: Newspaper articles
   * When CSS was being designed, newspaper (and print media in general) was the primary source of content. CSS is modeled after this style, and it is important to keep that in mind.
