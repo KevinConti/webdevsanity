@@ -7,7 +7,7 @@ description = "A brief overview of the history of CSS, so we can move on to the 
 draft = true
 series = ["CSS Foundations"]
 tags = []
-title = "Where to Begin With CSS? The Display Property"
+title = "Beginning CSS? Here's What You Need to Know First!"
 
 +++
 Layout:
