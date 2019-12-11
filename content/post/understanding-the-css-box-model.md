@@ -97,6 +97,16 @@ The padding is the _space between the border line and the paragraph text_
 
 {{< /highlight >}}
 
+**Content**
+
+The content is the size of the block. In this case, it is dynamically determined by the paragraph <p> element inside of it.
+
+### So that's great and all, but what do I need to remember about all this?
+
+It's confusing for beginners to understand the difference between padding and margin, but it's a simple concept once it's broken down. Margin is on the outside of the element, and padding is on the inside. Try to keep these four terms in mind as we move on, because they will quickly become part of our shared language.
+
+## Layout in CSS: Think of Newspaper Articles
+
 * Primer on Box Model (very quick!) - code pen
 * Analagy: Newspaper articles
   * When CSS was being designed, newspaper (and print media in general) was the primary source of content. CSS is modeled after this style, and it is important to keep that in mind.
