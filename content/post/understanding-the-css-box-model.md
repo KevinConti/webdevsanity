@@ -57,7 +57,9 @@ It's easiest to see this with a real example. Let's look at a paragraph:
 
 <script async src="[https://static.codepen.io/assets/embed/ei.js](https://static.codepen.io/assets/embed/ei.js "https://static.codepen.io/assets/embed/ei.js")"></script>
 
-Margin - Since this block is centered it has a large left and right margin. That's what pushes it to the center:
+**Margin**
+
+Since this block is centered it has a large left and right margin. That's what pushes it to the center:
 
 {{< highlight css >}}
 
@@ -68,7 +70,9 @@ Margin - Since this block is centered it has a large left and right margin. That
 
 {{< /highlight >}}
 
-#### Border - The border for this element is that thin black line all around the block
+**Border**
+
+The border for this element is that thin black line all around the block
 
 {{< highlight css >}}
 
