@@ -12,7 +12,7 @@ title = "Beginning CSS? Here's What You Need to Know First!"
 +++
 Layout:
 
-Welcome to my _Foundations of CSS_ free online course! After finishing these articles and completing the challenge projects found at the bottom of some of the articles, you won't be a CSS master. You won't know every nuance, and you certainly won't be ready to give a talk on the merits of various CSS architectures.
+Welcome to my **_Foundations of CSS_** free online course! After finishing these articles and completing the challenge projects found at the bottom of some of the articles, you won't be a CSS master. You won't know every nuance, and you certainly won't be ready to give a talk on the merits of various CSS architectures.
 
 Instead, you'll know how to quickly and reliably create the exact layout you want within CSS, in plain, no-bs language.
 
@@ -99,13 +99,32 @@ The padding is the _space between the border line and the paragraph text_
 
 **Content**
 
-The content is the size of the block. In this case, it is dynamically determined by the paragraph <p> element inside of it.
+The content is the size of the block. In this case, it is dynamically determined by the paragraph element inside of it.
 
-### So that's great and all, but what do I need to remember about all this?
+### "So, that's great and all, but what do I need to remember about all this?"
 
-It's confusing for beginners to understand the difference between padding and margin, but it's a simple concept once it's broken down. Margin is on the outside of the element, and padding is on the inside. Try to keep these four terms in mind as we move on, because they will quickly become part of our shared language.
+It's confusing for beginners to understand the difference between padding and margin, but it's a simple concept once it's broken down. Margin is on the outside of the element, and padding is on the inside. 
+
+Try to keep these four terms in mind as we move on, because they will quickly become part of our shared language.
 
 ## Layout in CSS: Think of Newspaper Articles
+
+With CSS being roughly 25 years old, it's tough for many new developers to understand the context for which it was made, myself included. This causes a mental gap if you just go through, learn the syntax, and try to apply all of this yourself. It's helpful to take a step back and remember that print media, specifically newspapers, was the dominant form of publishing at the time. 
+
+![Newspaper article from 1994](/uploads/news-article.jpg)
+
+Looking at this article, doesn't some of it seem familiar to you in CSS terms? Do you see the h1 "Undergraduate applications set new record"? What about the black box surrounding the picture and underlying article? Doesn't that look oddly like our CSS Box Model?
+
+The point is, when we are looking at the original layout techniques of CSS, I want you to keep this article analogy on hand, as it will help with the concepts. Some of these css techniques, such as floats, don't make sense without coming from the perspective of a newspaper article.
+
+## The Old-Fashioned Way: The Display Property
+
+WebDevSanity.com is all about teaching you only what you need to know about web dev, so you can reliably use it for your own projects, or work, or whatever. As such, we're only going over the critical aspects of the display property for formatting. 
+
+Why are we going over it at all, you may ask? Good question. Here's why I think it's worth discussing even though you should only use it occasionally yourself:
+
+1. You'll see it on the web. Although you won't be implementing with it too often, it's still around, and it wouldn't be very great if there came a time where you had to at least _understand_ some CSS and it was beyond your comprehension.
+2. You'll still use blocks, even with modern CSS. Even though the rest is used far less frequently, you'll still find yourself relying on good ol' {{< highlight css >}} display: block {{< /highlight >}} pretty frequently. As such, you better understand how it works, and you won't have a good-enough understanding unless you understand the other display options that contrast it.
 
 * Primer on Box Model (very quick!) - code pen
 * Analagy: Newspaper articles
