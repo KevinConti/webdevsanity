@@ -64,8 +64,8 @@ Since this block is centered it has a large left and right margin. That's what p
 {{< highlight css >}}
 
     div {
-    	margin-left: auto
-        margin-right: auto
+    	margin-left: auto;
+        margin-right: auto;
     }
 
 {{< /highlight >}}
@@ -77,14 +77,25 @@ The border for this element is that thin black line all around the block
 {{< highlight css >}}
 
     div {
-    	border: 1px solid #OD331 
+    	border: 1px solid #OD331;
         /* A border of size 1px, a solid line, 
         and a dark teal color */
     }
 
 {{< /highlight >}}
 
-Margin - 
+**Padding**
+
+The padding is the _space between the border line and the paragraph text_  
+
+{{< highlight css >}}
+
+    div {
+    	padding: 10px;
+        /* Padding is 10px on all sides */
+    }
+
+{{< /highlight >}}
 
 * Primer on Box Model (very quick!) - code pen
 * Analagy: Newspaper articles
