@@ -45,11 +45,47 @@ The CSS Box Model is just a fancy way of saying that all CSS elements are "boxes
 
 It's easiest to see this with a real example. Let's look at a paragraph:
 
-<p class="codepen" data-height="408" data-theme-id="default" data-default-tab="css,result" data-user="KevinConti" data-slug-hash="BayKOLV" style="height: 408px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="box model">
+<div class="codepen" data-height="444" data-theme-id="default" data-default-tab="css,result" data-user="KevinConti" data-slug-hash="BayKOLV" data-prefill='{"title":"box model","tags":\[\],"stylesheets":\[\],"scripts":\[\]}'>
 
-</p>
+  <pre data-lang="html">&lt;div>
 
-<script async src="[https://static.codepen.io/assets/embed/ei.js](https://codepen.io/KevinConti/pen/BayKOLV "https://codepen.io/KevinConti/pen/BayKOLV")"></script>
+  &lt;p>Hello, this is a paragraph. I have a lot of text and things to tell you!
+
+  &lt;/p>
+
+&lt;/div> </pre>
+
+  <pre data-lang="css" >div {
+
+  width: 25%;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+  border: 1px solid #0D3331;
+
+  padding: 10px;
+
+  box-sizing: border-box;
+
+  background-color: #64D5CA;
+
+}
+
+p {
+
+  color: #0D3331;
+
+  font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+}</pre>
+
+  
+
+</div>
+
+<script async src="[https://static.codepen.io/assets/embed/ei.js](https://static.codepen.io/assets/embed/ei.js "https://static.codepen.io/assets/embed/ei.js")"></script>
 
 * Primer on Box Model (very quick!) - code pen
 * Analagy: Newspaper articles
