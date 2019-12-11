@@ -70,11 +70,15 @@ Margin - Since this block is centered it has a large left and right margin. That
 
 Border - The border for this element is that thin black line all around the block
 
+{{< highlight css >}}
+
     div {
     	border: 1px solid #OD331 
         /* A border of size 1px, a solid line, 
         and a dark teal color */
     }
+
+{{< /highlight >}}
 
 * Primer on Box Model (very quick!) - code pen
 * Analagy: Newspaper articles
