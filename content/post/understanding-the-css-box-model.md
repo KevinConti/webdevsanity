@@ -152,7 +152,37 @@ For example, in newspaper articles you often see that the first letter is far bi
 
 </p>
 
-<script async src="[https://static.codepen.io/assets/embed/ei.js](https://static.codepen.io/assets/embed/ei.js "https://static.codepen.io/assets/embed/ei.js")"></script>
+Notice how the 'V' is "inline" with the rest of the paragraph. Since I don't want it to effectively be inline with the paragraph, I define it as inline.
+
+Look what happens if I define this same "V" as a block:
+
+<p class="codepen" data-height="265" data-theme-id="default" data-default-tab="css,result" data-user="KevinConti" data-slug-hash="PowNyRo" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="BigLetter-Block">
+
+  <span>See the Pen <a href="[https://codepen.io/KevinConti/pen/PowNyRo](https://codepen.io/KevinConti/pen/PowNyRo "https://codepen.io/KevinConti/pen/PowNyRo")">
+
+  BigLetter-Block</a> by Kevin Conti (<a href="[https://codepen.io/KevinConti](https://codepen.io/KevinConti "https://codepen.io/KevinConti")">@KevinConti</a>)
+
+  on <a href="[https://codepen.io](https://codepen.io "https://codepen.io")">CodePen</a>.</span>
+
+</p>
+
+Notice how the V is now it's own **block**, it's own "chunk" of the page? That's the difference between block and inline.
+
+Beginners often get confused and consider the two as interchangeable, as if they were items you apply and guess-and-check to see if it fixed your formatting issue. Now, you should understand which of the two to choose for any given element.
+
+**display: inline-block**
+
+Don't worry, this isn't too complicated. It's an inline element, with the added ability to define a height explicitly. Again, rarely used so I only want to mention it so you've heard of it and have an idea of what it does. 
+
+Don't think of it as a hybrid between inline and block. Think of it as inline but you can add height. It's a much better mental model.
+
+**display: none**
+
+The final display value we'll talk about is display: none. This entirely removes the element from the HTML. Think of this like a delete option. It's useful for when you want something to not exist on mobile devices, for example.
+
+And that's it! Seems pretty simple, right?
+
+## So ignore these tools? This seems pretty straightforward.
 
 * Primer on Box Model (very quick!) - code pen
 * Analagy: Newspaper articles
