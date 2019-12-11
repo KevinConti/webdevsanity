@@ -45,13 +45,11 @@ The CSS Box Model is just a fancy way of saying that all CSS elements are "boxes
 
 It's easiest to see this with a real example. Let's look at a paragraph:
 
-<iframe height="444" style="width: 100%;" scrolling="no" title="box model" src="[https://codepen.io/KevinConti/embed/BayKOLV?height=444&theme-id=default&default-tab=css,result](https://codepen.io/KevinConti/embed/BayKOLV?height=444&theme-id=default&default-tab=css,result "https://codepen.io/KevinConti/embed/BayKOLV?height=444&theme-id=default&default-tab=css,result")" frameborder="no" allowtransparency="true" allowfullscreen="true">
+<p class="codepen" data-height="408" data-theme-id="default" data-default-tab="css,result" data-user="KevinConti" data-slug-hash="BayKOLV" style="height: 408px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="box model">
 
-  See the Pen <a href='[https://codepen.io/KevinConti/pen/BayKOLV](https://codepen.io/KevinConti/pen/BayKOLV "https://codepen.io/KevinConti/pen/BayKOLV")'>box model</a> by Kevin Conti
+</p>
 
-  (<a href='[https://codepen.io/KevinConti](https://codepen.io/KevinConti "https://codepen.io/KevinConti")'>@KevinConti</a>) on <a href='[https://codepen.io](https://codepen.io "https://codepen.io")'>CodePen</a>.
-
-</iframe>
+<script async src="[https://static.codepen.io/assets/embed/ei.js](https://codepen.io/KevinConti/pen/BayKOLV "https://codepen.io/KevinConti/pen/BayKOLV")"></script>
 
 * Primer on Box Model (very quick!) - code pen
 * Analagy: Newspaper articles
