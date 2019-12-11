@@ -12,7 +12,7 @@ title = "Where to Begin With CSS? The Display Property"
 +++
 Layout:
 
-Welcome to my "Foundations of CSS" free online course! After finishing these articles and completing the challenge projects found at the bottom of some of the articles, you won't be a CSS master. You won't know every nuance, and you certainly won't be ready to give a talk on the merits of various CSS architectures.
+Welcome to my _Foundations of CSS_ free online course! After finishing these articles and completing the challenge projects found at the bottom of some of the articles, you won't be a CSS master. You won't know every nuance, and you certainly won't be ready to give a talk on the merits of various CSS architectures.
 
 Instead, you'll know how to quickly and reliably create the exact layout you want within CSS, in plain, no-bs language.
 
@@ -21,7 +21,7 @@ What do I expect from you before you take this course?
 * You should already know basic CSS syntax. If you don't, [learn it here. ](https://www.w3schools.com/css/css_syntax.asp "w3schools")
 * You are willing to learn by doing, and will complete the exercises in the course when they appear.
 
-If the above doesn't apply to you, please look elsewhere. 
+If the above doesn't apply to you, please look elsewhere.
 
 ***
 
@@ -36,10 +36,16 @@ In this article, you will learn...
 
 The CSS Box Model is just a fancy way of saying that all CSS elements are "boxes", even if they don't look like them. When we talk about the space between elements, we need to know the four parts of the CSS Box Model:
 
-1. Margin - 
-2. Border
-3. Padding
-4. Content
+![CSS Box Model](/uploads/Group 1.png "CSS Box Model")
+
+1. Margin - The space around a box
+2. Border - The box itself - the edge of the element
+3. Padding - the white space between the border and any content
+4. Content - the insides of the box
+
+It's easiest to see this with a real example. Let's look at a paragraph:
+
+<p class="codepen" data-height="265" data-theme-id="default" data-default-tab="css,result" data-user="KevinConti" data-slug-hash="BayKOLV" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="box model">   <span>See the Pen <a href="https://codepen.io/KevinConti/pen/BayKOLV">   box model</a> by Kevin Conti (<a href="https://codepen.io/KevinConti">@KevinConti</a>)   on <a href="https://codepen.io">CodePen</a>.</span> </p> <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 * Primer on Box Model (very quick!) - code pen
 * Analagy: Newspaper articles
