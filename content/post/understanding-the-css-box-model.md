@@ -47,12 +47,6 @@ It's easiest to see this with a real example. Let's look at a paragraph:
 
 <p class="codepen" data-height="408" data-theme-id="default" data-default-tab="css,result" data-user="KevinConti" data-slug-hash="BayKOLV" style="height: 408px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="box model">
 
-  <span>See the Pen <a href="[https://codepen.io/KevinConti/pen/BayKOLV](https://codepen.io/KevinConti/pen/BayKOLV "https://codepen.io/KevinConti/pen/BayKOLV")">
-
-  box model</a> by Kevin Conti (<a href="[https://codepen.io/KevinConti](https://codepen.io/KevinConti/pen/BayKOLV "https://codepen.io/KevinConti/pen/BayKOLV")">@KevinConti</a>)
-
-  on <a href="[https://codepen.io](https://codepen.io/KevinConti/pen/BayKOLV "https://codepen.io/KevinConti/pen/BayKOLV")">CodePen</a>.</span>
-
 </p>
 
 <script async src="[https://static.codepen.io/assets/embed/ei.js](https://codepen.io/KevinConti/pen/BayKOLV "https://codepen.io/KevinConti/pen/BayKOLV")"></script>
