@@ -138,17 +138,17 @@ A block display is made to act like a paragraph. AKA, it is a _block_ of stuff. 
 
 **display: inline**
 
-Inline is the second-most important display value out of the four. Inline displays are for when you want something to appear as _inside_ (aka inline) with another element. 
+Inline is the second-most important display value out of the four. Inline displays are for when you want something to appear as _inside_ (aka inline) with another element.
 
 For example, in newspaper articles you often see that the first letter is far bigger than the rest of the letters in the paragraph. To create this in CSS, I may do something like this:
 
 <p class="codepen" data-height="369" data-theme-id="default" data-default-tab="css,result" data-user="KevinConti" data-slug-hash="povyxdR" style="height: 369px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="BigLetter">
 
-  <span>See the Pen <a href="[https://codepen.io/KevinConti/pen/povyxdR](https://codepen.io/KevinConti/pen/povyxdR "https://codepen.io/KevinConti/pen/povyxdR")">
+<span>See the Pen <a href="[https://codepen.io/KevinConti/pen/povyxdR](https://codepen.io/KevinConti/pen/povyxdR "https://codepen.io/KevinConti/pen/povyxdR")">
 
-  BigLetter</a> by Kevin Conti (<a href="[https://codepen.io/KevinConti](https://codepen.io/KevinConti "https://codepen.io/KevinConti")">@KevinConti</a>)
+BigLetter</a> by Kevin Conti (<a href="[https://codepen.io/KevinConti](https://codepen.io/KevinConti "https://codepen.io/KevinConti")">@KevinConti</a>)
 
-  on <a href="[https://codepen.io](https://codepen.io "https://codepen.io")">CodePen</a>.</span>
+on <a href="[https://codepen.io](https://codepen.io "https://codepen.io")">CodePen</a>.</span>
 
 </p>
 
@@ -158,11 +158,11 @@ Look what happens if I define this same "V" as a block:
 
 <p class="codepen" data-height="265" data-theme-id="default" data-default-tab="css,result" data-user="KevinConti" data-slug-hash="PowNyRo" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="BigLetter-Block">
 
-  <span>See the Pen <a href="[https://codepen.io/KevinConti/pen/PowNyRo](https://codepen.io/KevinConti/pen/PowNyRo "https://codepen.io/KevinConti/pen/PowNyRo")">
+<span>See the Pen <a href="[https://codepen.io/KevinConti/pen/PowNyRo](https://codepen.io/KevinConti/pen/PowNyRo "https://codepen.io/KevinConti/pen/PowNyRo")">
 
-  BigLetter-Block</a> by Kevin Conti (<a href="[https://codepen.io/KevinConti](https://codepen.io/KevinConti "https://codepen.io/KevinConti")">@KevinConti</a>)
+BigLetter-Block</a> by Kevin Conti (<a href="[https://codepen.io/KevinConti](https://codepen.io/KevinConti "https://codepen.io/KevinConti")">@KevinConti</a>)
 
-  on <a href="[https://codepen.io](https://codepen.io "https://codepen.io")">CodePen</a>.</span>
+on <a href="[https://codepen.io](https://codepen.io "https://codepen.io")">CodePen</a>.</span>
 
 </p>
 
@@ -172,7 +172,7 @@ Beginners often get confused and consider the two as interchangeable, as if they
 
 **display: inline-block**
 
-Don't worry, this isn't too complicated. It's an inline element, with the added ability to define a height explicitly. Again, rarely used so I only want to mention it so you've heard of it and have an idea of what it does. 
+Don't worry, this isn't too complicated. It's an inline element, with the added ability to define a height explicitly. Again, rarely used so I only want to mention it so you've heard of it and have an idea of what it does.
 
 Don't think of it as a hybrid between inline and block. Think of it as inline but you can add height. It's a much better mental model.
 
@@ -182,53 +182,20 @@ The final display value we'll talk about is display: none. This entirely removes
 
 And that's it! Seems pretty simple, right?
 
-## So ignore these tools? This seems pretty straightforward.
+## So why ignore these tools? This seems pretty straightforward.
 
-* Primer on Box Model (very quick!) - code pen
-* Analagy: Newspaper articles
-  * When CSS was being designed, newspaper (and print media in general) was the primary source of content. CSS is modeled after this style, and it is important to keep that in mind.
-* Display: none, block, inline
-  * block is made to act like a paragraph, AKA it is it's own content
-  * inline is made to be part of a paragraph, AKA a line inside a block
-  * none is made to entirely hide the content
-* Why is it so confusing when I go to make my own layouts?
-  * Just like in newspapers, block elements do not always take up the whole line (can have width specified) - code pen
-  * Inline values can have horizontal margin in order to be bigger than their elements - code pen
-* inline-block:
-  * Newspaper, think of it as an inline element (goes inside a paragraph), but it is itself a block. Think of when print articles have a big first letter and the rest of the paragraph is normal - code-snippet
-* Why a Sane Web Dev doesn't prefer these tools anymore
-  * Better things have been implemented in CSS for layout: flexbox and CSS grid
-  * Lots of bugs, with hacks required - code pens I already wrote
-  * Memorizing all this is too hard. More important for you is to understand the concepts, especially blocks, and then move on with your life
+For one, there are a host of odd bugs involved in these older layout techniques. _Floats_, which I have ignored completely for your sake, are notoriously frustrating for new developers, as they have a side-effect of taking the item in the layout out of the normal 'flow' and into it's own flow. This caused overlap issues that have had hacky solutions for years ([optional reading if you are interested](https://css-tricks.com/clearfix-a-lesson-in-web-development-evolution/)). 
 
-> Notes:
->
-> What makes up a box? Content -> padding -> border -> margin
->
-> There are default styles for elements assigned by the browser, just because you didn't set them doesn't mean there isn't something going on
->
-> CSS elements prefer to place themselves left to right, and only go to a new line if there isn't free space
->
-> display:
->
-> none - removed from the html page entirely
->
-> block - takes up all space horizontally
->
-> inline - only as wide as their content
->
-> Why it's so confusing:
->
-> block values can have width: 50% to look like inline values
->
-> inline values can have margin to make them wider than their contents
->
-> (need to prove this to myself via example)
->
-> inline-block - rarely used, but main difference is that it can have vertical emphasis
->
-> auto?
->
-> \*_inline vs inline-block elements are affected by whitespace inside your html_*
->
-> \*_inline-block default is not border-box, meaning that if you have a border the spacing will be fucked up_*
+Instead, here's all you need to know about old-school layout:
+
+* it uses the 'float' and 'clear' properties to define how layout should work
+* There was (and still is) a hacky solution called [Clearfix](https://css-tricks.com/clearfix-a-lesson-in-web-development-evolution/) which fixed a major layout issue.
+* Modern solutions ignore float-based layouts in favor of two new strategies: Flexbox and CSS Grid.
+
+Memorizing all of float-layouts is far too buggy for a Sane Web Dev. Unless your work requires a float based layout (browsers from before 2014), you should move on with your life.
+
+## What's Next?
+
+Up next, we'll dive into the holy grail of modern CSS layout, Flexbox! You'll learn the essentials of this layout platform, and we'll dive into some real examples of how to do popular website layouts. 
+
+_Edit: The next article in this series is currently being written! Get notified when it's released by signing up for my newsletter below._ 
