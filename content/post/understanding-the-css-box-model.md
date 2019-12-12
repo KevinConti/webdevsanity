@@ -184,11 +184,11 @@ And that's it! Seems pretty simple, right?
 
 ## So why ignore these tools? This seems pretty straightforward.
 
-For one, there are a host of odd bugs involved in these older layout techniques. _Floats_, which I have ignored completely for your sake, are notoriously frustrating for new developers, as they have a side-effect of taking the item in the layout out of the normal 'flow' and into it's own flow. This caused overlap issues that have had hacky solutions for years ([optional reading if you are interested](https://css-tricks.com/clearfix-a-lesson-in-web-development-evolution/)). 
+For one, there are a host of odd bugs involved in these older layout techniques. _Floats_, which I have ignored completely for your sake, are notoriously frustrating for new developers, as they have a side-effect of taking the item in the layout out of the normal 'flow' and into it's own flow. This caused overlap issues that have had hacky solutions for years ([optional reading if you are interested](https://css-tricks.com/clearfix-a-lesson-in-web-development-evolution/)).
 
 Instead, here's all you need to know about old-school layout:
 
-* it uses the 'float' and 'clear' properties to define how layout should work
+* It uses the ['float' and 'clear']( "https://alistapart.com/article/css-floats-101/") properties to define how layout should work
 * There was (and still is) a hacky solution called [Clearfix](https://css-tricks.com/clearfix-a-lesson-in-web-development-evolution/) which fixed a major layout issue.
 * Modern solutions ignore float-based layouts in favor of two new strategies: Flexbox and CSS Grid.
 
@@ -196,6 +196,6 @@ Memorizing all of float-layouts is far too buggy for a Sane Web Dev. Unless your
 
 ## What's Next?
 
-Up next, we'll dive into the holy grail of modern CSS layout, Flexbox! You'll learn the essentials of this layout platform, and we'll dive into some real examples of how to do popular website layouts. 
+Up next, we'll dive into the holy grail of modern CSS layout, Flexbox! You'll learn the essentials of this layout platform, and we'll dive into some real examples of how to do popular website layouts.
 
-_Edit: The next article in this series is currently being written! Get notified when it's released by signing up for my newsletter below._ 
+_Edit: The next article in this series is currently being written! Get notified when it's released by signing up for my newsletter below._
