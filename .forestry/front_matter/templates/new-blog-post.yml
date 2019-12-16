@@ -56,5 +56,5 @@ fields:
   name: title
   label: title
 pages:
-- content/post/understanding-the-css-box-model.md
+- content/post/css-for-programmers-1.md
 - content/test.md
