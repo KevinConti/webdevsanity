@@ -209,7 +209,7 @@ If you're having trouble, here are some hints:
 
 Solution is below:
 
-{{< codepen id="MWYbaPr" >}}
+{{< codepen id="MWYbaPr" preview=true >}}
 
 ## What's Next?
 
