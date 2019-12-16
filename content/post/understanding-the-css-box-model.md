@@ -115,9 +115,9 @@ With CSS being roughly 25 years old, it's tough for many new developers to under
 
 ![Newspaper article from 1994](/uploads/news-article.jpg)
 
-Looking at this article, doesn't this look similar to what ugly CSS looks like? Do you see the h1 "Undergraduate applications set new record"? What about the black box surrounding the picture and underlying article? Doesn't that look oddly like our CSS Box Model?
+Looking at this article, doesn't this look similar to what ugly CSS looks like? Do you see the h1 (CSS syntax, this means a large heading) that reads "Undergraduate applications set new record"? What about the black box surrounding the picture and underlying article? Doesn't that look oddly like our CSS Box Model?
 
-The point is, when we are looking at the original layout techniques of CSS, I want you to keep this article analogy on hand, as it will help with the concepts. Some of these css techniques, such as floats, don't make sense without coming from the perspective of a newspaper article.
+The point is, when we are looking at the original layout techniques of CSS, keep this article analogy on hand as it will help with the concepts. Some of these css techniques, such as floats, don't make sense without coming from the perspective of a newspaper article.
 
 ## The Old-Fashioned Way: The Display Property
 
