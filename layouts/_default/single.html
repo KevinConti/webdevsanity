@@ -15,6 +15,9 @@
 		<section class="post-content">
 			{{ .Content }}
 
+			<!-- StaticKit Email Form -->
+			{{ partial "contact-form.html" . }}
+
 			{{ if (not (eq .Site.DisqusShortname "")) | and (not .Params.disableComments) }}
 				<hr>
 				{{ template "_internal/disqus.html" . }}

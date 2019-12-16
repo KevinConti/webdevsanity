@@ -716,3 +716,30 @@ li code {
   color: #24292e;
   padding: 0 5px;
 }
+
+/* Non-theme CSS (Custom) */
+#contact-form-card {
+  /* Contact Form (Static Kit) */
+  max-width: 24rem; /*max-w-sm*/
+  border-radius: 0.25rem; /*rounded*/
+  overflow: hidden;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05); /*shadow-lg*/
+
+  /* Center the form (child) */
+  display: flex;
+  justify-content: center;
+}
+
+#contact-form-padding {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem; /*px-6*/
+  padding-top: 1rem;
+  padding-bottom: 1rem; /*py-4*/
+}
+
+#contact-form-title {
+  font-weight: 700; /*font-bold*/
+  font-size: 1.25rem; /*text-xl*/
+  margin-bottom: 0.5rem; /*mb-2*/
+}
