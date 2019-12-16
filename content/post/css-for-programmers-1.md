@@ -9,7 +9,7 @@ tags = []
 title = "Beginning CSS? Here's What You Need to Know First!"
 
 +++
-Welcome to my **_CSS for Programmers_** free online course! If you are a programmer who is looking to explore web development (specifically CSS), and want a clear, no-bs guide to doing so, this guide is for you!
+Welcome to my **_CSS for Programmers_** free online course! If you are a programmer who is looking to explore web development (specifically CSS), and want a clear, no-bs guide to doing so, this guide is for you! 
 
 **_What WON'T this series teach me?_**
 
