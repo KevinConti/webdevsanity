@@ -46,17 +46,7 @@ The CSS Box Model is just a fancy way of saying that all CSS elements are "boxes
 
 It's easiest to see this with a real example. Let's look at a paragraph:
 
-<p class="codepen" data-height="469" data-theme-id="default" data-default-tab="css,result" data-user="KevinConti" data-slug-hash="BayKOLV" style="height: 469px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="box model">
-
-<span>See the Pen <a href="[https://codepen.io/KevinConti/pen/BayKOLV](https://codepen.io/KevinConti/pen/BayKOLV "https://codepen.io/KevinConti/pen/BayKOLV")">
-
-box model</a> by Kevin Conti (<a href="[https://codepen.io/KevinConti](https://codepen.io/KevinConti "https://codepen.io/KevinConti")">@KevinConti</a>)
-
-on <a href="[https://codepen.io](https://codepen.io "https://codepen.io")">CodePen</a>.</span>
-
-</p>
-
-<script async src="[https://static.codepen.io/assets/embed/ei.js](https://static.codepen.io/assets/embed/ei.js "https://static.codepen.io/assets/embed/ei.js")"></script>
+{{< codepen id="BayKOLV" >}}
 
 **Margin**
 
@@ -145,29 +135,13 @@ _A common beginner mistake is to think of "inline" as "next-to", which is WRONG.
 
 For example, in newspaper articles you often see that the first letter is far bigger than the rest of the letters in the paragraph. To create this in CSS, I may do something like this:
 
-<p class="codepen" data-height="369" data-theme-id="default" data-default-tab="css,result" data-user="KevinConti" data-slug-hash="povyxdR" style="height: 369px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="BigLetter">
-
-<span>See the Pen <a href="[https://codepen.io/KevinConti/pen/povyxdR](https://codepen.io/KevinConti/pen/povyxdR "https://codepen.io/KevinConti/pen/povyxdR")">
-
-BigLetter</a> by Kevin Conti (<a href="[https://codepen.io/KevinConti](https://codepen.io/KevinConti "https://codepen.io/KevinConti")">@KevinConti</a>)
-
-on <a href="[https://codepen.io](https://codepen.io "https://codepen.io")">CodePen</a>.</span>
-
-</p>
+{{< codepen id="povyxdR" >}}
 
 Notice how the 'V' is "inline" with the rest of the paragraph. Since I don't want it to be above the paragraph, I define it as inline.
 
 Look what happens if I define this same "V" as a block:
 
-<p class="codepen" data-height="265" data-theme-id="default" data-default-tab="css,result" data-user="KevinConti" data-slug-hash="PowNyRo" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="BigLetter-Block">
-
-<span>See the Pen <a href="[https://codepen.io/KevinConti/pen/PowNyRo](https://codepen.io/KevinConti/pen/PowNyRo "https://codepen.io/KevinConti/pen/PowNyRo")">
-
-BigLetter-Block</a> by Kevin Conti (<a href="[https://codepen.io/KevinConti](https://codepen.io/KevinConti "https://codepen.io/KevinConti")">@KevinConti</a>)
-
-on <a href="[https://codepen.io](https://codepen.io "https://codepen.io")">CodePen</a>.</span>
-
-</p>
+{{< codepen id="PowNyRo" >}}
 
 Notice how the V is now it's own **block**, it's own "chunk" of the page? That's the difference between block and inline.
 
@@ -202,19 +176,19 @@ Memorizing all of float-layouts is far too buggy for a Sane Web Dev. Unless your
 
 ## Recap
 
-1) CSS Box Model has four parts: Margin, border, padding and content.
+1. CSS Box Model has four parts: Margin, border, padding and content.
 
 _What to remember:_ Remember the four parts, and remember that _margin_ is for space outside of the border, and _padding_ is for space inside the border.
 
-2) Old-school CSS is like a newspaper, especially regarding float-based layouts
+1. Old-school CSS is like a newspaper, especially regarding float-based layouts
 
 _What to remember:_ Move to modern CSS strategies to more easily create modern web layouts
 
-3) Display has four important values: block, inline, inline-block, and none.
+1. Display has four important values: block, inline, inline-block, and none.
 
 _What to remember:_ Inline is not the same as "next to"! It means more like "inside of"
 
-4) Floats and clears were used to figure out where to put things in old-school CSS
+1. Floats and clears were used to figure out where to put things in old-school CSS
 
 _What to remember:_ You need to learn these if you want to support old browsers ( \~0.8% of web users as of publishing this). It's not worth the effort unless it's required by your work, or for some other very specific reason.
 
@@ -226,17 +200,7 @@ Hey listen, you promised yourself at the top that you would try these! The only 
 
 I've tried to create a basic layout: a sidebar on the left, some main content on the right, and a footer below it. However, I've screwed something up in the CSS, and everything is overlapping everything else. I've left some pretty obvious hints in the codepen, see if you can figure it out yourself!
 
-<p class="codepen" data-height="265" data-theme-id="default" data-default-tab="css,result" data-user="KevinConti" data-slug-hash="abzBvxP" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Bonus exercise: messed-up">
-
-  <span>See the Pen <a href="[https://codepen.io/KevinConti/pen/abzBvxP](https://codepen.io/KevinConti/pen/abzBvxP "https://codepen.io/KevinConti/pen/abzBvxP")">
-
-  Bonus exercise: messed-up</a> by Kevin Conti (<a href="[https://codepen.io/KevinConti](https://codepen.io/KevinConti "https://codepen.io/KevinConti")">@KevinConti</a>)
-
-  on <a href="[https://codepen.io](https://codepen.io "https://codepen.io")">CodePen</a>.</span>
-
-</p>
-
-<script async src="[https://static.codepen.io/assets/embed/ei.js](https://static.codepen.io/assets/embed/ei.js "https://static.codepen.io/assets/embed/ei.js")"></script>
+{{< codepen id="abzBvxP" >}}
 
 If you're having trouble, here are some hints:
 
@@ -245,17 +209,7 @@ If you're having trouble, here are some hints:
 
 Solution is below:
 
-<p class="codepen" data-height="265" data-theme-id="default" data-default-tab="css,result" data-user="KevinConti" data-slug-hash="MWYbaPr" data-preview="true" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Bonus exercise: completed">
-
-  <span>See the Pen <a href="[https://codepen.io/KevinConti/pen/MWYbaPr](https://codepen.io/KevinConti/pen/MWYbaPr "https://codepen.io/KevinConti/pen/MWYbaPr")">
-
-  Bonus exercise: completed</a> by Kevin Conti (<a href="[https://codepen.io/KevinConti](https://codepen.io/KevinConti "https://codepen.io/KevinConti")">@KevinConti</a>)
-
-  on <a href="[https://codepen.io](https://codepen.io "https://codepen.io")">CodePen</a>.</span>
-
-</p>
-
-<script async src="[https://static.codepen.io/assets/embed/ei.js](https://static.codepen.io/assets/embed/ei.js "https://static.codepen.io/assets/embed/ei.js")"></script>
+{{< codepen id="MWYbaPr" >}}
 
 ## What's Next?
 
