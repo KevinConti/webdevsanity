@@ -16,7 +16,7 @@
 			{{ .Content }}
 
 			<!-- StaticKit Email Form -->
-			{{ partial "contact-form.html" . }}
+			{{ partial "contact-form-tailwind.html" . }}
 
 			{{ if (not (eq .Site.DisqusShortname "")) | and (not .Params.disableComments) }}
 				<hr>

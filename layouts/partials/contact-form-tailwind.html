@@ -1,0 +1,59 @@
+<!-- docs: https://statickit.com/docs/html/forms -->
+<!--
+<div id="contact-form-title">Learn Web Dev Without Going Insane</div>
+<form id="my-form">
+    
+    <input id="name" type="name" name="name" placeholder="Name" required />
+    <input id="email" type="email" name="email" value="" placeholder="Email" required />
+    <button type="submit">Yes, Sign me up!</button>
+</form>
+-->
+<div class="flex justify-center">
+    <form class="w-full max-w-sm" id="my-form">
+    <div class="md-flex md-items-center mb-6">
+        <div class="md-w-one-third">
+        <label class="block text-gray-500 font-bold md-text-right mb-1 md-mb-0 pr-4" for="inline-full-name">Full Name
+        </label>
+        </div>
+        <div class="md-w-two-thirds">
+        <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus-outline-none focus-bg-white focus-border-purple-500 fix-border-style" id="inline-full-name" type="text" placeholder="Jane Doe" value="">
+        </div>
+    </div>
+    <div class="md-flex md-items-center mb-6">
+        <div class="md-w-one-third">
+        <label class="block text-gray-500 font-bold md-text-right mb-1 md-mb-0 pr-4" for="inline-username">
+            Email
+        </label>
+        </div>
+        <div class="md-w-two-thirds">
+        <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus-outline-none focus-bg-white focus-border-purple-500 fix-border-style" id="inline-username" type="email" placeholder="janedoe@gmail.com">
+        </div>
+    </div>
+    <div class="md-flex md-items-center ">
+        <div class="md-w-one-third"></div>
+    </div>
+    <div class="md-flex md-items-center">
+        <div class="md-w-one-third"></div>
+        <div class="md-w-two-thirds">
+        <button class="shadow bg-purple-500 hover-bg-purple-400 focus-shadow-outline focus-outline-none text-white font-bold py-2 px-4 rounded border-none" type="button">
+            Sign Up
+        </button>
+        </div>
+    </div>
+    </form>
+</div>
+<script>
+  window.sk =
+    window.sk ||
+    function() {
+      (sk.q = sk.q || []).push(arguments);
+    };
+
+  sk('form', 'init', {
+    site: 'c49fe69e143c', // found under the Settings tab
+    form: 'Contact Form', // the key used in statickit.json
+    element: '#my-form',
+  });
+</script>
+<script defer src="https://js.statickit.com/statickit.js"></script>
+

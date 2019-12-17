@@ -717,29 +717,122 @@ li code {
   padding: 0 5px;
 }
 
-/* Non-theme CSS (Custom) */
-#contact-form-card {
-  /* Contact Form (Static Kit) */
-  max-width: 24rem; /*max-w-sm*/
-  border-radius: 0.25rem; /*rounded*/
-  overflow: hidden;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-    0 4px 6px -2px rgba(0, 0, 0, 0.05); /*shadow-lg*/
-
-  /* Center the form (child) */
+/* Tailwind CSS classes (TODO: Delete after inport Tailwind) */
+.w-full {
+  width: 100%;
+}
+.max-w-sm {
+  max-width: 24rem;
+}
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+.block {
+  display: block;
+}
+.text-gray-500 {
+  color: #a0aec0;
+}
+.font-bold {
+  font-weight: 700;
+}
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+.pr-4 {
+  padding-right: 1rem;
+}
+.bg-gray-200 {
+  background-color: #edf2f7;
+}
+.rounded {
+  border-radius: 0.25rem;
+}
+.appearance-none {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.border-2 {
+  border-width: 2px;
+}
+.border-gray-200 {
+  border-color: #edf2f7;
+}
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.text-gray-700 {
+  color: #4a5568;
+}
+.leading-tight {
+  line-height: 1.25;
+}
+.focus-outline-none:focus {
+  outline: none;
+}
+.focus-bg-white:focus {
+  background: #fff;
+}
+.focus-border-purple-500:focus {
+  border-color: #9f7aea !important;
+}
+.shadow {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+.bg-purple-500 {
+  background-color: #9f7aea;
+}
+.hover-bg-purple-400:hover {
+  background-color: #b794f4 !important;
+}
+.focus-shadow-outline:focus {
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+.focus-outline-none:none {
+  outline: 0;
+}
+.text-white {
+  color: #fff;
+}
+.border-none {
+  border: 0;
+}
+.flex {
   display: flex;
+}
+.justify-center {
   justify-content: center;
 }
 
-#contact-form-padding {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem; /*px-6*/
-  padding-top: 1rem;
-  padding-bottom: 1rem; /*py-4*/
+/*md:*/
+@media (min-width: 768px) {
+  .md-flex {
+    display: flex;
+  }
+  .md-items-center {
+    align-items: center;
+  }
+  .md-w-one-third {
+    width: 33.333333%;
+  }
+  .md-text-right {
+    text-align: right;
+  }
+  .md-mb-0 {
+    margin-bottom: 0;
+  }
+  .md-w-two-thirds {
+    width: 66.666667%;
+  }
 }
 
-#contact-form-title {
-  font-weight: 700; /*font-bold*/
-  font-size: 1.25rem; /*text-xl*/
-  margin-bottom: 0.5rem; /*mb-2*/
+/* My own hacks to fix some conflicts w/tailwindcss */
+.fix-border-style {
+  border-style: solid;
 }
