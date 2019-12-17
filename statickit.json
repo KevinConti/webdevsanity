@@ -1,7 +1,12 @@
 {
   "forms": {
     "contact-form": {
-      "name": "Contact Form"
+      "name": "contact-form",
+      "fields": {
+        "full name": { "type": "text", "required": true },
+        "email": { "type": "email", "required": true }
+      },
+      "actions": [{ "type": "email", "to": "kevcon80@gmail.com" }]
     }
   }
 }
