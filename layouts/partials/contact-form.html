@@ -1,0 +1,28 @@
+<!-- docs: https://statickit.com/docs/html/forms -->
+<div id="contact-form-card">
+    <div id="contact-form-padding">
+        <div id="contact-form-title">Learn Web Dev Without Going Insane</div>
+        <form id="my-form">
+            <!-- Include any fields you need -->
+            <input id="name" type="name" name="name" placeholder="Name" required />
+            <input id="email" type="email" name="email" value="" placeholder="Email" required />
+            <button type="submit">Yes, Sign me up!</button>
+        </form>
+    </div>
+</div>
+
+<script>
+  window.sk =
+    window.sk ||
+    function() {
+      (sk.q = sk.q || []).push(arguments);
+    };
+
+  sk('form', 'init', {
+    site: 'c49fe69e143c', // found under the Settings tab
+    form: 'Contact Form', // the key used in statickit.json
+    element: '#my-form',
+  });
+</script>
+<script defer src="https://js.statickit.com/statickit.js"></script>
+
